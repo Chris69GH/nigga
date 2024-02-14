@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Exotic Travel Adventures - Destinations</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .destination-section {
+      margin-bottom: 20px;
+    }
+
+    .destination-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .destination-container .destination-video,
+    .destination-container .destination-description {
+      width: 48%;
+    }
+
+    .learn-more {
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    footer {
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body class="destination">
+
+  <header>
+    <h1>Explore our Featured Destinations 🌍</h1>
+    <p>Uncover the beauty and wonders of these amazing places 🏞️</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destination.html">Destinations</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="destination-section">
+      <h2>Finland 🇫🇮</h2>
+    
+      <div class="destination-container">
+    
+        <div class="destination-video">
+          <video width="100%" controls>
+            <source src="destination1_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    
+        <div class="destination-description">
+          <p>Experience the magic of Finland with its stunning landscapes and rich cultural heritage. A perfect blend of adventure and relaxation awaits you.</p>
+        </div>
+    
+      </div>
+    
+      <div class="learn-more">
+        <a href="learn_more_finland.html" class="button">Learn More</a>
+      </div>
+    </section>
+    
+    <section class="destination-section">
+      <h2>China 🇨🇳</h2>
+    
+      <div class="destination-container">
+    
+        <div class="destination-video">
+          <video width="100%" controls>
+            <source src="destination2_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    
+        <div class="destination-description">
+          <p>Discover the hidden treasures of China, where pristine nature meets culture. An ideal destination for nature lovers and green enthusiasts.</p>
+        </div>
+    
+      </div>
+    
+      <div class="learn-more">
+        <a href="learn_more_china.html" class="button">Learn More</a>
+      </div>
+    </section>
+    
+    <section class="destination-section">
+      <h2>Mongolia 🇲🇳</h2>
+    
+      <div class="destination-container">
+    
+        <div class="destination-video">
+          <video width="100%" controls>
+            <source src="destination3_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    
+        <div class="destination-description">
+          <p>Immerse yourself in the vibrant atmosphere of Mongolia. From bustling markets to historic landmarks, there's something for every type of traveler.</p>
+        </div>
+    
+      </div>
+    
+      <div class="learn-more">
+        <a href="learn_more_mongolia.html" class="button">Learn More</a>
+      </div>
+    </section>
+    
+    <section class="destination-section">
+      <h2>Japan 🇯🇵</h2>
+    
+      <div class="destination-container">
+    
+        <div class="destination-video">
+          <video width="100%" controls>
+            <source src="destination4_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    
+        <div class="destination-description">
+          <p>Explore the wonders of Japan with its unique blend of natural beauty and cultural richness. This destination promises an unforgettable experience for every traveler.</p>
+        </div>
+    
+      </div>
+    
+      <div class="learn-more">
+        <a href="learn_more_japan.html" class="button">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Exotic Travel Adventures. All rights reserved. 🌟</p>
+  </footer>
+
+</body>
+
+</html
